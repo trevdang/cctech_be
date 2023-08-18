@@ -1,6 +1,8 @@
-# cctech_be
+# Backend Assignment for Convergence Concepts
 
-## Backend Assignment for Convergence Concepts
+## Description:
+The objective of the exercise is not about complexity, scale, or the amount of code written. The exercise is about readability, organization, decisions made, and overall project structure. Any libraries that you would use in a real-world project are certainly OK to use - it is not an 'algorithm exam'!
+
 ### Requirements:
 * Use Node.js
 * A User should be able to create "todo" items, which can be viewed (read) by all users.

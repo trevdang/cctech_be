@@ -1,0 +1,30 @@
+conn = new Mongo();
+db = conn.getDB("cctech_be");
+db.dropDatabase();
+imgHost = "/";
+
+result = db.todo.insert([
+    {
+        task_id: "task-1",
+        name: "Walk the dog",
+        duration: 20,
+        finished: false,
+        author: "george"
+    },
+    {
+        task_id: "task-2",
+        name: "Cook the rice",
+        duration: 60,
+        finished: false,
+        author: "george"
+    },
+    {
+        task_id: "task-3",
+        name: "Do Math homework",
+        duration: 90,
+        finished: false,
+        author: "george"
+    },
+]);
+
+print(result);
